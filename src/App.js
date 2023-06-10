@@ -1,5 +1,6 @@
 import './App.css';
 import ApplicationForm from './components/ApplicationForm';
+import Dashboard from './components/Dashboard';
 import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <HomePage />
       <ApplicationForm/>
+      <Dashboard/>
     </div>
   );
 }
